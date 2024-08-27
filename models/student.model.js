@@ -15,9 +15,8 @@ const StudentSchema = mongoose.Schema(
             required: [true,"Course is required"]
         },
         year: {
-            type: Number,
+            type: String,
             required: [true,"Year is required"],
-            default: 0
         },
         enrolled: {
             type: Boolean,
